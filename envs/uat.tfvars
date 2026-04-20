@@ -18,6 +18,6 @@ subnets = {
 }
 
 ec2_instances = {
-  "web-server-1" = { ami_id = "ami-0ec10929233384c7f", instance_type = "t3.small", subnet_key = "public-subnet-1" }
-  "web-server-2" = { ami_id = "ami-0ec10929233384c7f", instance_type = "t3.small", subnet_key = "public-subnet-2" }
+  "web-server-1" = { ami_id = "ami-05d2d839d4f73aafb", instance_type = "t3.small", subnet_key = "public-subnet-1" }
+  "web-server-2" = { ami_id = "ami-05d2d839d4f73aafb", instance_type = "t3.small", subnet_key = "public-subnet-2" }
 }
